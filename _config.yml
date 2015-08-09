@@ -12,13 +12,13 @@ redcarpet:
 
 paginate: 20
 baseurl: /
-domain_name: 'http://eaglechen.github.com'
+domain_name: 'http://eaglechen.github.io'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
-url:            'http://eaglechen.github.com'
+url:            'http://eaglechen.github.io'
 author:         'Eagle Chen'
 authorTwitter:  ''
 
