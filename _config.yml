@@ -1,0 +1,45 @@
+name: 那些坑
+description: 技术，生活及其它
+meta_description: "Blogging about Tech, Life and other stuffs."
+
+aboutPage: true
+
+markdown: redcarpet
+highlighter: pygments
+
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+
+paginate: 20
+baseurl: /
+domain_name: 'http://eaglechen.github.com'
+google_analytics: 'UA-XXXXXXXX-X'
+disqus: false
+disqus_shortname: 'your-disqus-shortname'
+
+# Details for the RSS feed generator
+url:            'http://eaglechen.github.com'
+author:         'Eagle Chen'
+authorTwitter:  ''
+
+permalink:       /:year/:title/
+
+defaults:
+    -
+        scope:
+            path: "" # empty string for all files
+            type: pages
+        values:
+            layout: default
+    -
+        scope:
+            path: "" # empty string for all files
+            type: posts
+        values:
+            layout: post
+    -
+        scope:
+            path: ""
+            type: drafts
+        values:
+            layout: post
