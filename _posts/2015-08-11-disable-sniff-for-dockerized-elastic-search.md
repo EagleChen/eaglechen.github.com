@@ -15,3 +15,5 @@ no Elasticsearch node available
 
 ##解决方法
 我就纳闷了，一切都正常为啥总是连不上呢？查了很多资料后发现，是因为Elastic Search被放进docker之后，一些Client机制不能正常工作了。这个时候只需要把Transport Client的Sniff关闭即可。
+
+一些介绍可以看[这里](https://github.com/olivere/elastic/issues/57)
