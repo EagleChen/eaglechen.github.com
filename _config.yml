@@ -14,8 +14,8 @@ paginate: 20
 baseurl: /
 domain_name: 'http://eaglechen.github.io'
 google_analytics: 'UA-XXXXXXXX-X'
-disqus: false
-disqus_shortname: 'your-disqus-shortname'
+disqus: true
+disqus_shortname: 'eaglechen'
 
 # Details for the RSS feed generator
 url:            'http://eaglechen.github.io'
