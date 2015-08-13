@@ -2,6 +2,9 @@
 title:  "Elastic Search在docker里的坑"
 date:   2015-08-09 10:00:00
 description: Elastic Search在docker环境中的坑
+tags:
+  - elasticsearch
+  - docker
 ---
 Elastic Search很好搭建，使用方便，然而，在docker环境里坑还不少。这里遇到一个`transport client`连不上ES的问题。
 

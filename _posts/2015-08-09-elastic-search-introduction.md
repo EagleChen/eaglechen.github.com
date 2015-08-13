@@ -2,6 +2,9 @@
 title:  "小白也能玩搜索"
 date:   2015-08-09 10:00:00
 description: Elastic Search入门
+tags:
+  - elasticsearch
+  - docker
 ---
 
 你是否为了讨女朋友的欢心而偷偷搜索过她最想要的礼物？是否在女朋友生病的时候心急地搜过医院和药物？是否在吵架过后默默地搜过和好方法？

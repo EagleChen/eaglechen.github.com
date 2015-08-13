@@ -224,6 +224,7 @@ em, i { font-style: italic; }
 .post header {
 	text-align:center;
 
+	margin-bottom: 40px;
 }
 
 .post h1 {
@@ -233,7 +234,6 @@ em, i { font-style: italic; }
 }
 
 .post h2 {
-	margin-bottom: 40px;
 	  font: 300 24px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
 	  color: #111;
 }
@@ -242,13 +242,29 @@ em, i { font-style: italic; }
 .post h2.headline {
 	/*font: italic 22px/1.3em Georgia,serif;*/
 	font: normal 13px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
-	margin: -5px 0 40px 0;
+	margin: -5px 0 5px 0;
 	color: #b2b9be;
 	  font-size: 13px;
 	  text-transform: uppercase;
 	  letter-spacing: 2px;
 	  /*margin-top: 15px;*/
 	  display: inline-block;
+}
+
+ul.tag_list {
+  list-style-type: none;
+}
+
+ul.tag_list li {
+  display: inline;
+}
+
+ul.tag_list li a {
+  font: normal 14px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
+  background:#5B5B5B;
+  padding: 3px 15px;
+  border-radius: 3px;
 }
 
 #post-list h2 {
@@ -620,6 +636,25 @@ h2.month {
   padding: 6px 10px;
   border-radius: 4px;
   margin-left: 2px;
+}
+
+.archive_list li {
+  list-style: none;
+  margin: 20px 0;
+}
+
+.archive_list li time {
+  float: left;
+  margin-right: 20px;
+}
+
+.archive_list li span {
+  float: left;
+}
+
+.archive_list li span p {
+  color: #b2b9be;
+  margin: -20px 0 5px;
 }
 
 /* Media Queries */

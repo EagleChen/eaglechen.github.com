@@ -7,6 +7,11 @@ archive: true
     <header>
         <h1>{{ page.title }}</h1>
         <h2 class="headline">{{ page.date | date:"%B %-d, %Y" }}</h2>
+        <ul class="tag_list">
+          {% for tag in page.tags %}
+          <li class="inline"><a class="tag_list_link" href="/tag/{{ tag }}">{{ tag }}</a></li>
+          {% endfor %}
+        </ul>
     </header>
     <section id="post-body">
         {{content}}
