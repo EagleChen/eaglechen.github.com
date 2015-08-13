@@ -3,6 +3,7 @@ description: 技术，生活及其它
 meta_description: "Blogging about Tech, Life and other stuffs."
 
 aboutPage: true
+safe: false
 
 markdown: redcarpet
 highlighter: pygments
